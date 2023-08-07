@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:elevation="2dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/famous_recipe"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvRecipeName"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="hgjj"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </androidx.cardview.widget.CardView>
+</layout>
